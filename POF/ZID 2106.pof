@@ -1,0 +1,528 @@
+;ZID POSITION ID FILE
+
+; ORIGINAL ZID POF FILE -- Date:04/02/2009 -- Version:ZID_v6.1
+; Copyright, 2009, vZID-Virtual Indianapolis ARTCC, All Rights Reserved.
+; This file is intended for the sole use of the members of the VATSIM Online community 
+; and the members of the vZID ARTCC. 
+; Last Edit: 6/15/2021 - David Stone ZID ATM: Updated sector IDs to match FAA ZCx codes
+
+;THIS FILE USES THE FOLLOWING FORMAT -->
+;NAME:RNAME:FREQ:SECID:ARTSTAG:CALLPREFIX:CALLSUFFIX:LINE1:LINE2:LSQUAWK:HSQUAWK
+;
+;NAME = SECTOR NAME
+;RNAME = RADIO CALLSIGN
+;FREQ = FREQUENCY MATCH FOR THIS POSITION
+;SECID = SECTOR ID USED FOR HANDOFFS & ATC-ATC COMMS
+;ARTSTAG = POSITION SYMBOL ON THE ARTS SCOPE
+;CALLPREFIX = PREFIX MATCH FOR THIS POSITION
+;CALLSUFFIX = SUFFIX MATCH FOR THIS POSITION
+;LINE1 = FIRST LINE TO DISPLAY ON EACH KEY IN VSCS
+;LINE2 = SECOND LINE TO DISPLAY ON EACH KEY IN VSCS
+;LSQUAWK = LOW END OF SQUAWK RANGE FOR THIS POSITION
+;HSQUAWK = HIGH END OF SQUAWK RANGE FOR THIS POSITION
+;
+;-------------------------------------------------------------------------------------
+;                                 INDIANAPOLIS CENTER                                 
+;-------------------------------------------------------------------------------------
+;PRIMARY INDY CENTER FREQUENCY
+;
+INDIANAPOLIS CENTER:Indy Center:119.550:I34:C:IND:CTR:IND 34:CTR:6601:6777
+;
+;LO SPLITS
+;
+INDY LOW:Indy Center:119.550:I34:L:IND:CTR:IND 34:CTR:6601:6677
+INDY LOW NORTH:Indy Center:119.550:I34:N:IND:CTR:IND 34:CTR:6601:6677
+INDY LOW SOUTH:Indy Center:126.575:I25:R:IND:CTR:IND 25:CTR:6701:6777
+INDY LOW EAST:Indy Center:124.450:I30:E:IND:CTR:IND 30:CTR:6701:6777
+INDY LOW WEST:Indy Center:128.300:I17:W:IND:CTR:IND 17:CTR:6601:6677
+;
+;HI SPLITS
+INDY HI:Indy Center:128.225:I83:H:IND:CTR:IND 83:CTR:6501:6577
+INDY HI NORTH:Indy Center:120.575:I88:N:IND:CTR:IND 88:CTR:6401:6477
+INDY HI SOUTH:Indy Center:134.675:I84:R:IND:CTR:IND 84:CTR:6501:6577
+INDY HI EAST:Indy Center:119.525:I85:E:IND:CTR:IND 85:CTR:6401:6477
+INDY HI WEST:Indy Center:128.225:I83:W:IND:CTR:IND 83:CTR:6501:6577
+;
+;AREA One
+;
+EVANSVILLE 17 (EVV LO):Indy Center:128.300:I17:C:IND:CTR:IND 17:CTR:6701:6777
+NEW HOPE 19 (EWO LO):Indy Center:121.175:I19:C:IND:CTR:IND 19:CTR:6701:6777
+POCKET CITY 81 (PXV HI):Indy Center:132.525:I81:C:IND:CTR:IND 81:CTR:6601:6677
+LOUISVILLE 82 (LOU HI):Indy Center:133.050:I82:C:IND:CTR:IND 82:CTR:6601:6677
+IMPEL 91 (IMP SH):Indy Center:127.025:I91:C:IND:CTR:IND 91:CTR:6401:6477
+MYSTIC 92 (MYS SH):Indy Center:134.275:I92:C:IND:CTR:IND 92:CTR:6401:6477
+;
+;AREA 2
+;
+LONDON 21 (LOZ LO):Indy Center:124.625:I21:C:IND:CTR:IND 21:CTR:6701:6777
+HAZARD 25 (AZQ LO):Indy Center:126.575:I25:C:IND:CTR:IND 25:CTR:6701:6777
+RIVER 26 (RIV LO):Indy Center:124.225:I26:C:IND:CTR:IND 26:CTR:6701:6777
+REBEL 84 (RBL HI):Indy Center:134.675:I84:C:IND:CTR:IND 84:CTR:6601:6677
+SOMERSET 94 (SME SH):Indy Center:126.925:I94:C:IND:CTR:IND 94:CTR:6401:6477
+;
+;AREA 3
+;
+BOBCAT 79 (BOB IM):Indy Center:135.125:I79:C:IND:CTR:IND 79:CTR:6501:6577
+CHARLESTON 85 (CRW HI):Indy Center:119.525:I85:C:IND:CTR:IND 85:CTR:6601:6677
+BECKLEY 86 (BKW HI):Indy Center:124.575:I86:C:IND:CTR:IND 86:CTR:6601:6677
+HENDERSON 95 (HNN SH):Indy Center:120.275:I95:C:IND:CTR:IND 95:CTR:6401:6477
+BLUEFIELD 96 (BLF SH):Indy Center:134.225:I96:C:IND:CTR:IND 96:CTR:6401:6477
+;
+;AREA 4
+;
+SHELBYVILLE 34 (SHB LO):Indy Center:119.550:I34:C:IND:CTR:IND 34:CTR:6601:6777
+TERRE HAUTE 35 (HUF LO):Indy Center:132.200:I35:C:IND:CTR:IND 35:CTR:6701:6777
+KING 80 (KNG IM):Indy Center:134.175:I80:C:IND:CTR:IND 80:CTR:6601:6677
+INDY 89 (IND IM):Indy Center:133.425:I89:C:IND:CTR:IND 89:CTR:6601:6677
+RUSHVILLE 75 (RSH HI):Indy Center:125.125:I75:C:IND:CTR:IND 75:CTR:6401:6477
+WABASH 99 (WAB SH):Indy Center:132.775:I99:C:IND:CTR:IND 99:CTR:6401:6477
+;
+;AREA 5
+;
+COVINGTON 22 (CVG LO):Indy Center:123.925:I22:C:IND:CTR:IND 22:CTR:6701:6777
+LYTLE 31 (LTL LO):Indy Center:120.475:I31:C:IND:CTR:IND 31:CTR:6701:6777
+ROSEWOOD 32 (ROD LO):Indy Center:128.075:I32:C:IND:CTR:IND 32:CTR:6701:6777
+MUNCIE 33 (MIE LO):Indy Center:124.525:I33:C:IND:CTR:IND 33:CTR:6701:6777
+SPRINGFIELD 78 (SGH IM):Indy Center:135.800:I78:C:IND:CTR:IND 78:CTR:6501:6577
+DAYTON 88 (DAY HI):Indy Center:120.575:I88:C:IND:CTR:IND 88:CTR:6601:6677
+PATTERSON 98 (FFO SH):Indy Center:128.775:I98:C:IND:CTR:IND 98:CTR:6401:6477
+;
+;AREA 6
+;
+YORK 23 (YRK LO):Indy Center:134.000:I23:Y:IND:CTR:IND 23:CTR:6701:6777
+PARKERSBURG 24 (PKB LO):Indy Center:125.550:I24:P:IND:CTR:IND 24:CTR:6701:6777
+COLUMBUS 30 (CMH LO):Indy Center:124.450:I30:M:IND:CTR:IND 30:CTR:6701:6777
+PIKE 69 (PIK LO):Indy Center:135.575:I69:K:IND:CTR:IND 69:CTR:6701:6777
+UNIVERSITY 77 (UNV HI):Indy Center:125.075:I77:C:IND:CTR:IND 77:CTR:6401:6477
+APPLETON 87 (APE HI):Indy Center:132.825:I87:C:IND:CTR:IND 87:CTR:6601:6677
+LOCKBOURNE 97 (LCK SH):Indy Center:133.775:I97:C:IND:CTR:IND 97:CTR:6401:6477
+;
+;AREA 7
+;
+NABB 18 (ABB LO):Indy Center:124.775:I18:C:IND:CTR:IND 18:CTR:6701:6777
+LEXINGTON 20 (LEX LO):Indy Center:126.375:I20:X:IND:CTR:IND 20:CTR:6701:6777
+BATESVILLE 76 (BTV IM):Indy Center:134.700:I76:C:IND:CTR:IND 76:CTR:6401:6477
+DACOS 93 (DAC IM):Indy Center:123.775:I93:C:IND:CTR:IND 93:CTR:6401:6477
+MADISON 66 (MAD HI):Indy Center:128.375:I66:C:IND:CTR:IND 66:CTR:6601:6677
+FALMOUTH 83 (FLM HI):Indy Center:128.225:I83:C:IND:CTR:IND 83:CTR:6601:6677
+HOOSIER 70 (OOM SH):Indy Center:120.875:I70:C:IND:CTR:IND 70:CTR:6401:6477
+;
+;ZID STAFF
+;
+ZID ATM:Indy Center:119.550:29::ZID ATM:OBS:ZID ATM:ZID ATM
+ZID DATM:Indy Center:119.550:29::ZID DATM:OBS:ZID DATM:ZID ATM
+ZID TA:Indy Center:119.550:27::ZID TA:OBS:ZID TA:ZID TA
+ZID EC:Indy Center:119.550:27::ZID EC:OBS:ZID EC:ZID EC
+ZID FE:Indy Center:119.550:27::ZID FE:OBS:ZID FE:ZID FE
+ZID WM:Indy Center:119.550:27::ZID WM:OBS:ZID FE:ZID WM
+;
+;************************************************************************************
+;*                                   ZID TRACONS                                    *
+;************************************************************************************
+;------------------------------------------------------------------------------------
+;                             CINCINNATI TRACON, Sector 1                            
+;------------------------------------------------------------------------------------
+Cincinnati ATIS:Cincinnati ATIS:135.300:CA:-:KCVG:ATIS:KCVG:ATIS
+Cincinnati Flight Data:Flight Data:127.175:FD:-:CVG:FD:CVG:FD:3701:3777
+Cincinnati Clearance:Cincinnati Clearance:127.175:1C:-:CVG:DEL:CVG:DEL:3701:3777
+Cincinnati East Ground:Cincinnati Ground:121.300:1U:-:CVG:GND:CVG:GND:3701:3777
+Cincinnati West Ground:Cincinnati Ground:121.700:1G:-:CVG:GND:CVG:GND:3701:3777
+Cincinnati Center Tower:Cincinnati Tower:118.300:1T:T:CVG:TWR:CVG:TWR:3701:3777
+Cincinnati East Tower:Cincinnati Tower:118.975:1D:D:CVG:TWR:CVG:TWR:3701:3777
+Cincinnati West Tower:Cincinnati Tower:133.325:1A:A:CVG:TWR:CVG:TWR:3701:3777
+Cincinnati North Approach:Cincinnati Approach:123.875:1N:N:CVG:APP:CVG:APP:3701:3777
+Cincinnati South Approach:Cincinnati Approach:119.700:1S:S:CVG:APP:CVG:APP:3701:3777
+Cincinnati Final East Approach:Cincinnati Approach:124.700:1F:F:CVG:APP:CVG:APP:3701:3777
+Cincinnati Final West Approach:Cincinnati Approach:127.725:1V:V:CVG:APP:CVG:APP:3701:3777
+Cincinnati Sat Approach:Cincinnati Approach:121.000:1L:L:CVG:APP:CVG:APP:3701:3777
+Cincinnati Bearcat (East) Departure:Cincinnati Departure:128.700:1B:B:CVG:DEP:CVG:DEP:3701:3777
+Cincinnati Wildcat (West) Departure:Cincinnati Departure:126.650:1W:W:CVG:DEP:CVG:DEP:3701:3777
+;----------
+Lunken ATIS:Lunken ATIS:120.250:LA:-:KLUK:ATIS:KLUK:ATIS
+Lunken Clearance:Lunken Clearance:124.900:LC:-:LUK:DEL:LUK:DEL:3701:3777
+Lunken Ground:Lunken Ground:121.900:LG:-:LUK:GND:LUK:GND:3701:3777
+Lunken Tower:Lunken Tower:118.700:LT:-:LUK:TWR:LUK:TWR:3701:3777
+;------------------------------------------------------------------------------------
+;                            COLUMBUS TRACON, Sector 2
+;------------------------------------------------------------------------------------
+John Glenn Columbus ATIS:John Glenn Columbus ATIS:124.600:PA:-:KCMH:ATIS:KCMH:ATIS
+John Glenn Columbus Clearance:Columbus Clearance:126.300:2C:-:CMH:DEL:CMH:DEL:7301:7377
+John Glenn Columbus Ground:Columbus Ground:121.900:2G:-:CMH:GND:CMH:GND:7301:7377
+John Glenn Columbus Tower:Columbus Tower:132.700:2T:-:CMH:TWR:CMH:TWR:7301:7377
+John Glenn Columbus North Approach:Columbus Approach:125.950:2N:N:CMH:APP:CMH:APP:7301:7377
+John Glenn Columbus South Approach:Columbus Approach:134.000:2S:S:CMH:APP:CMH:APP:7301:7377
+John Glenn Columbus Final Approach:Columbus Approach:118.200:2F:F:CMH:APP:CMH:APP:7301:7377
+James M Cox Dayton 91-180 Approach:Columbus Approach:118.850:2E:E:CMH:APP:CMH:APP:2701:2777
+James M Cox Dayton 181-90 Approach:Columbus Approach:118.425:2W:W:CMH:APP:CMH:APP:2701:2777
+;----------
+Bolton Field Ground:Bolton Ground:121.800:BG:-:TZR:GND:TZR:GND:7301:7377
+Bolton Field Tower:Bolton Tower:128.100:BT:-:TZR:TWR:TZR:TWR:7301:7377
+;----------
+Dayton ATIS:Dayton ATIS:125.800:DA:-:KDAY:ATIS:KDAY:ATIS
+Dayton Clearance:Dayton Clearance:121.750:DC:-:DAY:DEL:DAY:DEL:2701:2777
+Dayton Ground:Dayton Ground:121.900:DG:-:DAY:GND:DAY:GND:2701:2777
+Dayton Tower:Dayton Tower:119.900:DT:-:DAY:TWR:DAY:TWR:2701:2777
+;----------
+OSU ATIS:State ATIS:121.350:OA:-:KOSU:ATIS:KOSU:ATIS
+OSU Ground:State Ground:121.700:OG:-:OSU:GND:OSU:GND:7301:7377
+OSU Tower:State Tower:118.800:OT:-:OSU:TWR:OSU:TWR:7301:7377
+;-----------
+Patterson ATIS:Patterson ATIS:124.475:PA:-:KFFO:ATIS:KFFO:ATIS
+Patterson Ground:Patterson Ground:121.800:PG:-:FFO:GND:FFO:GND:2701:2777
+Patterson Tower:Patterson Tower:126.900:PT:-:FFO:TWR:FFO:TWR:2701:2777
+;----------
+Rickenbacker ATIS:Rick ATIS:132.750:RA:-:KLCK:ATIS:KLCK:ATIS
+Rickenbacker Ground:Rick Ground:125.275:RG:-:LCK:GND:LCK:GND:7301:7377
+Rickenbacker Tower:Rick Tower:120.050:RT:-:LCK:TWR:LCK:TWR:7301:7377 
+;-----------
+Wilmington ATIS:Wilmington ATIS:124.925:WA:-:KILN:ATIS:KILN:ATIS:2701:2777
+Wilmington Clearance:Wilmington Clearance:128.850:WC:-:ILN:DEL:ILN:DEL:2701:2777
+Wilmington Ground:Wilmington Ground:121.600:WG:-:ILN:GND:ILN:GND:2701:2777
+Wilmington Tower:Wilmington Tower:119.475:WT:-:ILN:TWR:ILN:TWR:2701:2777
+;------------------------------------------------------------------------------------
+;                         INDIANAPOLIS TRACON, Sector 3
+;------------------------------------------------------------------------------------
+Indianapolis ATIS:Indianapolis ATIS:134.250:IA:-:KIND:ATIS:KIND:ATIS
+Indianapolis Flight Data:Indianapolis Flight Data:128.750:FD:-:IND:FD:IND:FD:3401:3477
+Indianapolis Clearance:Indianapolis Clearance:128.750:3C:-:IND:DEL:IND:DEL:3401:3477
+Indianapolis East Ground:Indianapolis Ground:121.900:3G:-:IND:GND:IND:GND:3401:3477
+Indianapolis West Ground:Indianapolis Ground:121.800:3H:-:IND:GND:IND:GND:3401:3477
+Indianapolis East Tower:Indianapolis Tower:120.900:3Y:Y:IND:TWR:IND:TWR:3401:3477
+Indianapolis West Tower:Indianapolis Tower:127.825:3X:X:IND:TWR:IND:TWR:3401:3477
+Indianapolis East Approach:Indianapolis Approach:128.175:3D:D:IND:APP:IND:APP:3401:3477
+Indianapolis West Approach:Indianapolis Approach:124.650:3B:B:IND:APP:IND:APP:3401:3477
+Indianapolis East Final:Indianapolis Approach:123.950:3F:F:IND:APP:IND:APP:3401:3477
+Indianapolis West Final:Indianapolis Approach:120.525:3I:I:IND:APP:IND:APP:3401:3477
+Indianapolis East Departure:Indianapolis Departure:124.950:3E:E:IND:DEP:IND:DEP:3401:3477
+Indianapolis West Departure:Indianapolis Departure:119.050:3W:W:IND:DEP:IND:DEP:3401:3477
+;----------
+;Anderson Municipal Airport
+Anderson Ground:Anderson Ground:121.600:AG:-:AID:GND:AID:GND:3401:3477
+Anderson Tower:Anderson Tower:126.000:AT:-:AID:TWR:AID:TWR:3401:3477
+;----------
+;Columbus Municipal Airport
+Columbus ATIS:Columbus ATIS:119.750:CA:-:KBAK:ATIS:KBAK:ATIS
+Columbus Ground:Columbus Ground:121.600:CG:-:BAK:GND:BAK:GND:3401:3477
+Columbus Tower:Columbus Tower:118.600:CT:-:BAK:TWR:BAK:TWR:3401:3477
+;-----------
+;Delaware County Regional Airport
+Muncie ATIS:Muncie ATIS:133.250:MA:-:KMIE:ATIS:KMIE:ATIS
+Muncie Ground:Muncie Ground:121.900:MG:-:MIE:GND:MIE:GND:3401:3477
+Muncie Tower:Muncie Tower:120.100:MT:-:MIE:TWR:MIE:TWR:3401:3477
+;------------------------------------------------------------------------------------
+;                         LOUISVILLE TRACON, Sector 4
+;------------------------------------------------------------------------------------
+Louisville ATIS:Louisville ATIS:118.725:LA:-:KSDF:ATIS:KSDF:ATIS
+Louisville Flight Data:Louisville Flight Data:126.100:FD:-:SDF:FD:SDF:FD:1401:1477
+Louisville Clearance:Louisville Clearance:126.100:4C:-:SDF:DEL:SDF:DEL:1401:1477
+Louisville East Ground:Louisville Ground:121.700:4G:-:SDF:GND:SDF:GND:1401:1477
+Louisville West Ground:Louisville Ground:119.825:4Y:-:SDF:GND:SDF:GND:1401:1477
+Louisville East Tower:Louisville Tower:124.200:4T:-:SDF:TWR:SDF:TWR:1401:1477
+Louisville West Tower:Louisville Tower:135.200:4L:-:SDF:TWR:SDF:TWR:1401:1477
+Louisville East Approach:Louisville Approach:134.150:4A:A:SDF:APP:SDF:APP:1401:1477
+Louisville West Approach:Louisville Approach:132.325:4I:I:SDF:APP:SDF:APP:1401:1477
+Louisville Final East Approach:Louisville Approach:135.775:4E:E:SDF:APP:SDF:APP:1401:1477
+Louisville Final West Approach:Louisville Approach:120.300:4W:W:SDF:APP:SDF:APP:1401:1477
+Louisville East Departure:Louisville Approach:132.075:4D:D:SDF:DEP:SDF:DEP:1401:1477
+Louisville West Departure:Louisville Departure:123.675:4B:B:SDF:DEP:SDF:DEP:1401:1477
+;-----------
+Bowman Field ATIS:Bowman ATIS:124.150:BA:-:KLOU:ATIS:KLOU:ATIS
+Bowman Field Clearance:Bowman Clearance:118.900:BC:-:LOU:DEL:LOU:DEL:1401:1477
+Bowman Field Ground:Bowman Ground:121.800:BG:-:LOU:GND:LOU:GND:1401:1477
+Bowman Field Tower:Bowman Tower:119.500:BT:-:LOU:TWR:LOU:TWR:1401:1477
+;-----------
+Godman ATIS:Godman ATIS:126.200:GA:-:KFTK:ATIS:KFTK:ATIS
+Godman Ground:Godman Ground:121.900:GG:-:FTK:GND:FTK:GND:1401:1477
+Godman Tower:Godman Tower:133.350:GT:-:FTK:TWR:FTK:TWR:1401:1477
+;------------------------------------------------------------------------------------
+;                              CHARLESTON TRACON, Sector 5
+;------------------------------------------------------------------------------------
+Charleston ATIS:Charleston ATIS:127.600:YA:-:KCRW:ATIS:KCRW:ATIS
+Charleston Clearance:Charleston Clearance:118.550:5C:-:CRW:DEL:CRW:DEL:3001:3042
+Charleston Ground:Charleston Ground:121.800:5G:-:CRW:GND:CRW:GND:3001:3042
+Charleston Tower:Charleston Tower:125.700:5T:-:CRW:TWR:CRW:TWR:3001:3042
+Charleston North Approach:Charleston Approach:124.100:5N:N:CRW:APP:CRW:APP:3001:3042
+Charleston South Approach:Charleston Approach:119.200:5S:S:CRW:APP:CRW:APP:3001:3042
+Charleston Departure:Charleston Departure:128.500:5D:D:CRW:DEP:CRW:DEP:3001:3042
+;------------------------------------------------------------------------------------
+;                           HUNTINGTON TRACON, Sector 6
+;------------------------------------------------------------------------------------
+Tri-State ATIS:Tri-State ATIS:125.200:HA:-:KHTS:ATIS:KHTS:ATIS
+Tri-State Clearance:Tri-State Clearance:118.050:6C:-:HTS:GND:HTS:GND:3001:3042
+Tri-State Ground:Tri-State Ground:121.900:6G:-:HTS:GND:HTS:GND:3001:3042
+Tri-State Tower:Tri-State Tower:118.500:6T:-:HTS:TWR:HTS:TWR:3001:3042
+Tri-State Approach:Tri-State Approach:128.400:6A:A:HTS:APP:HTS:APP:3001:3042
+Tri-State Departure:Tri-State Departure:119.750:6D:D:HTS:DEP:HTS:DEP:3001:3042
+;------------------------------------------------------------------------------------
+;                            LEXINGTON TRACON, Sector 7
+;------------------------------------------------------------------------------------
+Lexington ATIS:Lexington ATIS:126.300:LA:-:KLEX:ATIS:KLEX:ATIS
+Lexington Clearance:Lexington Clearance:132.350:7C:-:LEX:GND:LEX:GND:3043:3077
+Lexington Ground:Lexington Ground:121.900:7G:-:LEX:GND:LEX:GND:3043:3077
+Lexington Tower:Lexington Tower:119.100:7T:-:LEX:TWR:LEX:TWR:3043:3077
+Lexington East Approach:Lexington Approach:120.150:7E:E:LEX:APP:LEX:APP:3043:3077
+Lexington West Approach:Lexington Approach:120.750:7W:W:LEX:APP:LEX:APP:3043:3077
+Lexington Departure:Lexington Departure:133.400:7D:D:LEX:APP:LEX:APP:3043:3077
+;------------------------------------------------------------------------------------
+;                           EVANSVILLE TRACON, Sector 8
+;------------------------------------------------------------------------------------
+Evansville ATIS:Evansville ATIS:120.200:EA:-:KEVV:ATIS:KEVV:ATIS
+Evansville Clearance:Evansville Clearance:126.600:8C:-:EVV:GND:EVV:GND:2601:2642
+Evansville Ground:Evansville Ground:121.900:8G:-:EVV:GND:EVV:GND:2601:2642
+Evansville Tower:Evansville Tower:118.700:8T:-:EVV:TWR:EVV:TWR:2601:2642
+Evansville East Approach:Evansville Approach:124.025:8E:E:EVV:APP:EVV:APP:2601:2642
+Evansville West Approach:Evansville Approach:127.350:8W:W:EVV:APP:EVV:APP:2601:2642
+;----------
+Owensboro Ground:Owensboro Ground:121.700:OG:-:OWB:GND:OWB:GND:2601:2642
+Owensboro Tower:Owensboro Tower:120.700:OT:-:OWB:TWR:OWB:TWR:2601:2642
+;------------------------------------------------------------------------------------
+;                            HULMAN TRACON, Sector 9
+;------------------------------------------------------------------------------------
+Hulman ATIS:Hulman ATIS:127.500:TA:-:KHUF:ATIS:KHUF:ATIS
+Hulman Ground:Hulman Ground:121.600:9G:-:HUF:GND:HUF:GND:2601:2642
+Hulman Tower:Hulman Tower:134.725:9T:-:HUF:TWR:HUF:TWR:2601:2642
+Hulman Approach:Hulman Approach:125.450:9A:A:HUF:APP:HUF:APP:2601:2677
+Hulman Departure:Hulman Departure:119.800:9D:D:HUF:DEP:HUF:DEP:2601:2677
+Hulman Bloomington Approach:Hulman Approach:128.025:9B:B:HUF:APP:HUF:APP:2643:2677
+;----------
+Bloomington Ground:Bloomington Ground:121.900:BG:-:BMG:GND:BMG:GND:2643:2677
+Bloomington Tower:Bloomington Tower:120.775:BT:-:BMG:TWR:BMG:TWR:2643:2677
+;------------------------------------------------------------------------------------
+;                        Towered Facilities, not within a TRACON                     
+;------------------------------------------------------------------------------------
+;Mid-Ohio Valley Regional Airport
+Parkersburg ATIS:Parkersburg ATIS:124.350:PA:-:KPKB:ATIS:KPKB:ATIS
+Parkersburg Ground:Parkersburg Ground:121.700:PG:-:PKB:GND:PKB:GND:6701:6777
+Parkersburg Tower:Parkersburg Tower:123.700:PT:-:PKB:TWR:PKB:TWR:6701:6777
+;
+;************************************************************************************
+;                           NEIGHBORING CENTERS                                     
+;************************************************************************************
+;------------------------------
+;***     Atlanta Center (A) ***
+;------------------------------
+;Area 1
+PULASKI:Atlanta Center:132.970:A43:C:ATL:CTR:PULASKI:ZTL43
+BISTOL:Atlanta Center:127.850:A45:C:ATL:CTR:BISTOL:ZTL45
+SHINE:Atlanta Center:132.620:A44:C:ATL:CTR:SHINE:ZTL44
+MOPED:Atlanta Center:134.550:A47:C:ATL:CTR:MOPED:ZTL47
+;Area 2
+CHARLOTTE:Atlanta Center:124.420:A33:C:ATL:CTR:CHARLOTTE:ZTL33
+SPARTANBURG:Atlanta Center:125.620:A32:C:ATL:CTR:SPARTANBURG:ZTL32
+LEEON:Atlanta Center:128.800:A29:C:ATL:CTR:LEEON:ZTL29
+LOCAS:Atlanta Center:133.150:A30:C:ATL:CTR:LOCAS:ZTL30
+UNARM:Atlanta Center:135.350:A31:C:ATL:CTR:UNARM:ZTL31
+;Area 3
+LOGEN:Atlanta Center:121.350:A49:C:ATL:CTR:LOGEN:ZTL49
+EA. DEP:Atlanta Center:124.450:A16:C:ATL:CTR:EA. DEP:ZTL16
+LANIER:Atlanta Center:124.370:A50:C:ATL:CTR:LANIER:ZTL50
+;Area 4
+DUBLIN:Atlanta Center:126.420:A20:C:ATL:CTR:DUBLIN:ZTL20
+MACON:Atlanta Center:119.570:A22:C:ATL:CTR:MACON:ZTL22
+AUGUSTA:Atlanta Center:128.100:A24:C:ATL:CTR:AUGUSTA:ZTL24
+SINCA:Atlanta Center:123.950:A19:C:ATL:CTR:SINCA:ZTL19
+SO. DEP:Atlanta Center:134.500:A21:C:ATL:CTR:SO. DEP:ZTL21
+;Area 5
+LA GRANGE:Atlanta Center:125.570:A10:C:ATL:CTR:LA GRANGE:ZTL10
+MONROEVILLE:Atlanta Center:128.020:A11:C:ATL:CTR:MONROEVILLE:ZTL11
+TIROE:Atlanta Center:120.450:A09:C:ATL:CTR:TIROE:ZTL09
+MONTGOMERY:Atlanta Center:120.550:A13:C:ATL:CTR:MONTGOMERY:ZTL13
+MAXWELL:Atlanta Center:132.250:A14:C:ATL:CTR:MAXWELL:ZTL14
+BIRMINGTON:Atlanta Center:127.300:A12:C:ATL:CTR:BIRNINGTON:ZTL12
+;Area 6
+GADSDEN:Atlanta Center:128.720:A03:C:ATL:CTR:GADSDEN:ZTL03
+ROCKET:Atlanta Center:133.170:A06:C:ATL:CTR:ROCKET:ZTL06
+WE. DEP:Atlanta Center:134.950:A04:C:ATL:CTR:WE. DEP:ZTL04
+DALAS:Atlanta Center:132.050:A05:C:ATL:CTR:DALAS:ZTL05
+ROME:Atlanta Center:133.800:A01:C:ATL:CTR:ROME:ZTL01
+;Area 7
+CROSSVILLE:Atlanta Center:126.670:A37:C:ATL:CTR:CROSSVILLE:ZTL37
+BURNE:Atlanta Center:125.920:A39:C:ATL:CTR:BURNE:ZTL39
+NO. DEP:Atlanta Center:133.100:A38:C:ATL:CTR:NO. DEP:ZTL38
+HINCH MT.:Atlanta Center:133.600:A41:C:ATL:CTR:HINCH MT.:ZTL41
+;
+;--------------------------------
+;***      Chicago Center (G)  ***
+;--------------------------------
+ZAU81:Chicago Center:120.350:G81:C:CHI:CTR:ZAU:81:1301:1377 ;CRIBB E LO (ZAU PRIMARY)
+ZAU89:Chicago Center:126.470:G89:C:CHI:CTR:ZAU:89:1301:1377 ;GIJ E HI (HI Primary)
+ZAU35:Chicago Center:134.870:G35:C:CHI:CTR:ZAU:35:1301:1377 ;BEARZ SE LO (SE Primary)
+ZAU36:Chicago Center:126.320:G36:C:CHI:CTR:ZAU:36:1301:1377 ;FWA SW HI
+ZAU44:Chicago Center:120.120:G44:C:CHI:CTR:ZAU:44:1301:1377 ;EON S LO (S Primary)
+ZAU46:Chicago Center:121.270:G46:C:CHI:CTR:ZAU:46:1301:1377 ;BVT S HI
+ZAU51:Chicago Center:135.150:G51:C:CHI:CTR:ZAU:51:1301:1377 ;PLANO SW LO (SW Primary)
+ZAU52:Chicago Center:132.220:G52:C:CHI:CTR:ZAU:52:1301:1377 ;BDF SW HI
+ZAU55:Chicago Center:118.750:G55:C:CHI:CTR:ZAU:55:1301:1377 ;BRL SW LO
+ZAU94:Chicago Center:125.570:G94:C:CHI:CTR:ZAU:94:1301:1377 ;IOW W HI (W Primary)
+ZAU75:Chicago Center:127.770:G75:C:CHI:CTR:ZAU:75:1301:1377 ;COTON NW HI (NW Primary)
+ZAU74:Chicago Center:133.350:G74:C:CHI:CTR:ZAU:74:1301:1377 ;FARMM NW LO
+ZAU77:Chicago Center:134.820:G77:C:CHI:CTR:ZAU:77:1301:1377 ;MALTA NW LO
+ZAU64:Chicago Center:133.300:G64:C:CHI:CTR:ZAU:64:1301:1377 ;LNR N LO (N Primary)
+ZAU60:Chicago Center:126.870:G60:C:CHI:CTR:ZAU:60:1301:1377 ;BAE N HI
+ZAU62:Chicago Center:123.820:G62:C:CHI:CTR:ZAU:62:1301:1377 ;HARLY N LO
+ZAU63:Chicago Center:133.950:G63:C:CHI:CTR:ZAU:63:1301:1377 ;DBQ N LO
+ZAU26:Chicago Center:133.200:G26:C:CHI:CTR:ZAU:26:1301:1377 ;KUBBS NE HI (NE Primary)
+ZAU25:Chicago Center:126.120:G25:C:CHI:CTR:ZAU:25:1301:1377 ;PMM NE HI
+;
+;***Champaign TRACON***
+CMIE:Champaign Approach:121.350:WE:E:CMI:APP:CMI:E:4301:4317 ;EAST (Primary)
+CMIW:Champaign Approach:132.850:WW:W:CMI:APP:CMI:W:4301:4317 ;West
+;
+;***Ft Wayne TRACON***
+FWAW:Fort Wayne Approach:127.200:FW:W:FWA:APP:FWA:W:4330:4357 ;WEST (Primary)
+FWAE:Fort Wayne Approach:132.150:FE:E:FWA:APP:FWA:E:4330:4357 ;East
+;
+;***Grissom RAPCON***
+GUSE:Grissom Approach:121.050:UD:D:GUS:APP:GUS:E:4360:4367 ;EAST (Primary)
+GUSW:Grissom Approach:123.850:UB:B:GUS:APP:GUS:W:4360:4367 ;West
+;
+;------------------------------
+;***   Cleveland Center (C) ***
+;------------------------------
+Pandora Low Sector 02:Cleveland Center:128.620:C02:C:CLE:CTR:PAN:02:5701:5777
+Marion Low Sector 03:Cleveland Center:135.100:C03:C:CLE:CTR:MNN:03:5701:5777
+Mansfield Low Sector 04:Cleveland Center:134.900:C04:C:CLE:CTR:MFD:04:5701:5777
+Briggs Low Sector 06:Cleveland Center:120.600:C06:C:CLE:CTR:BSV:06:5701:5777
+Carleton Low Sector 08:Cleveland Center:127.900:C08:C:CLE:CTR:CRL:08:5701:5777
+Lansing Low Sector 12:Cleveland Center:126.750:C12:C:CLE:CTR:LAN:12:5701:5777
+Jackson Low Sector 14:Cleveland Center:120.450:C14:C:CLE:CTR:JXN:14:5701:5777
+Litchfield Low Sector 15:Cleveland Center:134.650:C15:C:CLE:CTR:LFD:15:5701:5777
+Flint Low Sector 16:Cleveland Center:127.700:C16:C:CLE:CTR:FNT:16:5701:5777
+Dresden Low Sector 20:Cleveland Center:132.250:C20:C:CLE:CTR:DRE:20:5701:5777
+Windsor Low Sector 21:Cleveland Center:132.450:C21:C:CLE:CTR:YQG:21:5701:5777
+Rochester Low Sector 31:Cleveland Center:127.470:C31:C:CLE:CTR:ROC:31:5701:5777
+Buffalo Low Sector 33:Cleveland Center:125.200:C33:C:CLE:CTR:BUF:33:5701:5777
+Clarion Low Sector 50:Cleveland Center:126.720:C50:C:CLE:CTR:CIP:50:5701:5777
+Indian Head Low Sector 53:Cleveland Center:124.400:C53:C:CLE:CTR:IHD:53:5701:5777
+Morgantown Low Sector 55:Cleveland Center:126.950:C55:C:CLE:CTR:MGW:55:5701:5777
+Dunkirk Low Sector 70:Cleveland Center:127.070:C70:C:CLE:CTR:DKK:70:5701:5777
+Bradford Low Sector 73:Cleveland Center:124.320:C73:C:CLE:CTR:BFD:73:5701:5777
+Youngstown Low Sector 75:Cleveland Center:120.770:C75:C:CLE:CTR:YNG:75:5701:5777
+;
+Sandusky High Sector 07:Cleveland Center:127.670:C07:C:CLE:CTR:SKY:07:5701:5777
+Peck High Sector 18:Cleveland Center:133.870:C18:C:CLE:CTR:ECK:18:5701:5777
+Hudson High Sector 27:Cleveland Center:134.770:C27:C:CLE:CTR:HUD:27:5701:5777
+Detroit High Sector 28:Cleveland Center:135.720:C28:C:CLE:CTR:DET:28:5701:5777
+Dansville High Sector 36:Cleveland Center:118.620:C36:C:CLE:CTR:DSV:36:5701:5777
+Geneseo High Sector 37:Cleveland Center:128.020:C37:C:CLE:CTR:GEE:37:5701:5777
+Ravenna High Sector 48:Cleveland Center:119.870:C48:C:CLE:CTR:RAV:48:5701:5777
+Brecksville High Sector 57:Cleveland Center:125.870:C57:C:CLE:CTR:BKI:57:5701:5777
+Bellaire High Sector 66:Cleveland Center:125.420:C66:C:CLE:CTR:AIR:66:5701:5777
+Imperial High Sector 67:Cleveland Center:132.120:C67:C:CLE:CTR:IRL:67:5701:5777
+Warren High Sector 77:Cleveland Center:134.120:C77:C:CLE:CTR:WRN:77:5701:5777
+;
+Gamble Super High Sector 19:Cleveland Center:126.520:C19:C:CLE:CTR:GAM:19:5701:5777
+Lake Super High Sector 26:Cleveland Center:120.070:C26:C:CLE:CTR:LAK:26:5701:5777
+Wayne Super High Sector 29:Cleveland Center:133.520:C29:C:CLE:CTR:WAY:29:5701:5777
+Niagara Super High Sector 38:Cleveland Center:120.620:C38:C:CLE:CTR:IAG:38:5701:5777
+Steuben Super High Sector 39:Cleveland Center:119.370:C39:C:CLE:CTR:STU:39:5701:5777
+Bluffton Super High Sector 47:Cleveland Center:119.320:C47:C:CLE:CTR:BFT:47:5701:5777
+Lorain Super High Sector 49:Cleveland Center:133.370:C49:C:CLE:CTR:LOR:49:5701:5777
+Franklin Super High Sector 59:Cleveland Center:119.720:C59:C:CLE:CTR:FKL:59:5701:5777
+Allegheny Super High Sector 68:Cleveland Center:133.070:C68:C:CLE:CTR:AGC:68:5701:5777
+Clarksburg Super High Sector 69:Cleveland Center:135.170:C69:C:CLE:CTR:CKB:69:5701:5777
+;
+Geauga Ultra High Sector 45:Cleveland Center:120.320:C45:C:CLE:CTR:GEA:45:5701:5777
+Marblehead Ultra High Sector 46:Cleveland Center:135.370:C46:C:CLE:CTR:MBL:46:5701:5777
+Palmer Ultra High Sector 58:Cleveland Center:121.070:C58:C:CLE:CTR:PAR:58:5701:5777
+Keystone Ultra High Sector 64:Cleveland Center:134.470:C64:C:CLE:CTR:KEY:64:5701:5777
+Jamestown Ultra High Sector 79:Cleveland Center:132.920:C79:C:CLE:CTR:JHW:79:5701:5777
+;
+Traffic Management Unit:Cleveland Center:199.997:TMU:C:CLE:CTR:ZOB:TMU:5701:5777
+;
+;------------------------------
+;*** Kansas City Center (K) ***
+;------------------------------
+Kansas City Center Sector 94 (Vandalia High):Kansas City Center C94:125.720:K94:C:KC:CTR:KC:CTR
+Kansas City Center Sector 20 (Hutchinson High):Kansas City Center C20 STL:134.300:K20:C:KC:CTR:KC:CTR
+Kansas City Center Sector 62 (Pioneer Low):Kansas City Center C62 PER:128.300:K62:C:KC:CTR:KC:CTR
+Kansas City Center Sector 48 (Emporia Low):Kansas City Center C48 EMP:127.720:K48:C:KC:CTR:KC:CTR
+Kansas City Center Sector 54 (Farmington Low):Kansas City Center C54 FAM:127.470:K54:C:KC:CTR:KC:CTR
+;------------------------------
+;***     Memphis Center (M) ***
+;------------------------------
+Memphis Center:Memphis Center:133.650:M07:C:MEM:CTR:ZME 05:NEL
+Memphis Center:Memphis Center:120.070:M25:C:MEM:CTR:ZME 04:NWL
+Memphis Center:Memphis Center:135.300:M26:C:MEM:CTR:ZME 15:SWL
+Memphis Center:Memphis Center:120.800:M51:C:MEM:CTR:ZME 13:SEL
+Memphis Center:Memphis Center:134.650:M17:C:MEM:CTR:ZME 17:NNL
+Memphis Center:Memphis Center:135.900:M19:C:MEM:CTR:ZME 19:SSL
+Memphis Center:Memphis Center:118.870:M52:C:MEM:CTR:ZME 63:NEH
+Memphis Center:Memphis Center:132.550:M55:C:MEM:CTR:ZME 22:NWH
+Memphis Center:Memphis Center:124.820:M56:C:MEM:CTR:ZME 45:SWH
+Memphis Center:Memphis Center:134.770:M57:C:MEM:CTR:ZME 46:SEH
+;------------------------------
+;***  Washington Center (W) ***
+;------------------------------
+;ZDC - Washington Center Area A
+ZDC Hi- 03 Moorefield:Washington Center:133.270:W03:C:DC:CTR:DC:03
+ZDC Hi- 04 Pinion (A):Washington Center:133.970:W04:C:DC:CTR:DC:04
+ZDC Hi- 37 Marlinton:Washington Center:133.020:W37:C:DC:CTR:DC:37
+;ZDC - Washington Center Area B
+ZDC Hi- 10 Bay:Washington Center:132.270:W10:C:DC:CTR:DC:10
+ZDC Hi- 12 Brooke:Washington Center:126.870:W12:C:DC:CTR:DC:12
+ZDC Hi- 18 Dupont:Washington Center:132.520:W18:C:DC:CTR:DC:18
+ZDC Hi- 19 Woodstown (B):Washington Center:125.450:W19:C:DC:CTR:DC:19
+ZDC Hi- 39 Snow Hill:Washington Center:121.370:W39:C:DC:CTR:DC:39
+ZDC Lo- 51 Casino:Washington Center:127.700:W51:C:DC:CTR:DC:51
+ZDC Lo- 53 Kenton:Washington Center:132.050:W53:C:DC:CTR:DC:53
+ZDC Hi- 54 Salisbury:Washington Center:120.970:W54:C:DC:CTR:DC:54
+ZDC Hi- 58 Coyle:Washington Center:121.020:W58:C:DC:CTR:DC:58
+ZDC Hi- 59 Sea Isle:Washington Center:133.120:W59:C:DC:CTR:DC:59
+; ZDC - Washington Center Area C
+ZDC Lo- 14 Irons:Washington Center:132.950:W14:C:DC:CTR:DC:14
+ZDC Hi- 16 Hopewell:Washington Center:121.870:W16:C:DC:CTR:DC:16
+ZDC Hi- 32 Gordonsville (C):Washington Center:133.720:W32:C:DC:CTR:DC:32
+ZDC Hi- 36 Raleigh:Washington Center:118.920:W36:C:DC:CTR:DC:36
+ZDC Hi- 52 Tech:Washington Center:133.570:W52:C:DC:CTR:DC:52
+; ZDC - Washington Center Area D
+ZDC Hi- 34 Norfolk:Washington Center:133.820:W34:C:DC:CTR:DC:34
+ZDC Hi- 35 Wilmington (D):Washington Center:124.020:W35:C:DC:CTR:DC:35
+ZDC Hi- 38 Tar River:Washington Center:132.220:W38:C:DC:CTR:DC:38
+; ZDC - Washington Center Area SH
+ZDC SH- 07 Wahoo:Washington Center:121.920:W07:C:DC:CTR:07
+ZDC SH- 09 Dixon:Washington Center:118.820:W09:C:DC:CTR:DC:09
+ZDC SH- 42 Bryce:Washington Center:118.020:W42:C:DC:CTR:DC:42
+ZDC SH- 50 Yorktown:Washington Center:127.420:W50:C:DC:CTR:DC:50
+ZDC SH- 72 Shenandoah:Washington Center:134.620:W72:C:DC:CTR:DC:72
+; ZDC - Other Center Sectors
+ZDC Lo- 01 Elkins:Washington Center:128.600:W01:C:DC:CTR:DC:01
+ZDC Lo- 02 Casanova:Washington Center:133.200:W02:C:DC:CTR:DC:02
+ZDC Lo- 05 Linden:Washington Center:133.550:W05:C:DC:CTR:DC:05
+ZDC Lo- 06 Hagerstown:Washington Center:134.150:W06:C:DC:CTR:DC:06
+ZDC Lo- 11 Calvert:Washington Center:133.900:W11:C:DC:CTR:DC:11
+ZDC Lo- 15 Blue Ridge:Washington Center:133.650:W15:C:DC:CTR:DC:15
+ZDC Lo- 17 Swann:Washington Center:134.500:W17:C:DC:CTR:DC:17
+ZDC Lo- 20 Blackstone:Washington Center:127.750:W20:C:DC:CTR:DC:20
+ZDC Lo- 21 Dominion:Washington Center:118.750:W20:C:DC:CTR:DC:21
+ZDC Lo- 22 South Boston:Washington Center:124.050:W22:C:DC:CTR:DC:22
+ZDC Lo- 23 Cape Charles:Washington Center:132.550:W23:C:DC:CTR:DC:23
+ZDC Lo- 24 Cofield:Washington Center:123.850:W24:C:DC:CTR:DC:24
+ZDC Lo- 25 New Bern:Washington Center:135.500:W25:C:DC:CTR:DC:25
+ZDC Lo- 26 Sampson:Washington Center:135.300:W26:C:DC:CTR:DC:26
+ZDC Lo- 27 Liberty:Washington Center:135.200:W27:C:DC:CTR:DC:27
+ZDC Lo- 28 Rocky Mount:Washington Center:118.470:W28:C:DC:CTR:DC:28
+ZDC Lo- 29 Hot Springs:Washington Center:134.400:W29:C:DC:CTR:DC:29
+ZDC Lo- 30 Valley:Washington Center:127.920:W30:C:DC:CTR:DC:30
+ZDC Lo- 31 Azalea:Washington Center:135.400:W31:C:DC:CTR:DC:31
+ZDC Lo- 33 Franklin:Washington Center:132.020:W33:C:DC:CTR:DC:33
+ZDC Lo- 39 Snow Hill:Washington Center:121.370:W39:C:DC:CTR:DC:39
+ZDC Lo- 60 Montebello:Washington Center:121.670:W60:C:DC:CTR:DC:60
+;
+;************************************************************************************
+;                           NEIGHBORING TRACONS                                    
+;************************************************************************************
+
+;------------------------------
+;***   ZOB    ***
+;------------------------------
+
+Toledo East Approach:Toledo Approach:126.100:C3E:E:TOL:APP:TOL:APP
+Toledo West Approach:Toledo Approach:134.350:C3W:W:TOL:APP:TOL:APP
+Clarksburg East/Combined Approach:Clarksburg Approach:121.150:C1E:E:CKB:APP:CKB:APP
+Clarksburg West Approach:Clarksburg Approach:119.600:C7W:W:CKB:APP:CKB:APP
+Cleveland East Outer Approach:Cleveland Approach:124.000:C2E:E:CLE:APP:CLE:APP
+Cleveland West Outer Approach:Cleveland Approach:126.550:C2W:W:CLE:APP:CLE:APP
+Akron-Canton East Approach:Cleveland Approach:125.500:C2K:K:CAK:APP:CAK:APP
+Akron-Canton West Approach:Cleveland Approach:118.600:C2L:L:CAK:APP:CAK:APP
+Mansfield Approach:Cleveland Approach:124.200:C2M:M:MFD:APP:MFD:APP
